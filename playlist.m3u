@@ -1,25 +1,48 @@
 #EXTM3U
 
-# ===== GLOBAL CHANNELS =====
-https://iptv-org.github.io/iptv/index.m3u
+# ===== CHINA =====
+#EXTINF:-1 tvg-country="CN" group-title="China",CCTV1
+http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
 
-# ===== CHINA CHANNELS =====
-https://iptv-org.github.io/iptv/languages/zho.m3u
+#EXTINF:-1 tvg-country="CN" group-title="China",CCTV5
+http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8
+
+#EXTINF:-1 tvg-country="CN" group-title="China",CCTV13
+http://ivi.bupt.edu.cn/hls/cctv13hd.m3u8
+
 
 # ===== HONG KONG =====
-https://iptv-org.github.io/iptv/countries/hk.m3u
+#EXTINF:-1 tvg-country="HK" group-title="Hong Kong",RTHK 31
+https://rthklive1-lh.akamaihd.net/i/rthk31_1@167671/master.m3u8
+
+#EXTINF:-1 tvg-country="HK" group-title="Hong Kong",RTHK 32
+https://rthklive1-lh.akamaihd.net/i/rthk32_1@167672/master.m3u8
+
 
 # ===== MALAYSIA =====
-https://iptv-org.github.io/iptv/countries/my.m3u
+#EXTINF:-1 tvg-country="MY" group-title="Malaysia",RTM TV1
+https://rtm1mobile.secureswiftcontent.com/Origin01/ngrp:RTM1/chunklist.m3u8
+
+#EXTINF:-1 tvg-country="MY" group-title="Malaysia",RTM TV2
+https://rtm2mobile.secureswiftcontent.com/Origin01/ngrp:RTM2/chunklist.m3u8
+
+#EXTINF:-1 tvg-country="MY" group-title="Malaysia",TV Okey
+https://rtmokeymobile.secureswiftcontent.com/Origin01/ngrp:RTMOkey/chunklist.m3u8
+
 
 # ===== SPORTS =====
-https://iptv-org.github.io/iptv/categories/sports.m3u
+#EXTINF:-1 group-title="Sports",NASA TV
+https://ntv1.akamaized.net/hls/live/2036118/NTV1/master.m3u8
 
-# ===== MOVIES =====
-https://iptv-org.github.io/iptv/categories/movies.m3u
 
 # ===== NEWS =====
-https://iptv-org.github.io/iptv/categories/news.m3u
+#EXTINF:-1 group-title="News",France 24
+https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
+
+#EXTINF:-1 group-title="News",DW English
+https://dwamdstream103.akamaized.net/hls/live/2015525/dwstream103/index.m3u8
+
 
 # ===== MUSIC =====
-https://iptv-org.github.io/iptv/categories/music.m3u
+#EXTINF:-1 group-title="Music",Trace Urban
+https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
