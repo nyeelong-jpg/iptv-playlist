@@ -1,0 +1,25 @@
+#EXTM3U
+
+# ===== GLOBAL CHANNELS =====
+https://iptv-org.github.io/iptv/index.m3u
+
+# ===== CHINA CHANNELS =====
+https://iptv-org.github.io/iptv/languages/zho.m3u
+
+# ===== HONG KONG =====
+https://iptv-org.github.io/iptv/countries/hk.m3u
+
+# ===== MALAYSIA =====
+https://iptv-org.github.io/iptv/countries/my.m3u
+
+# ===== SPORTS =====
+https://iptv-org.github.io/iptv/categories/sports.m3u
+
+# ===== MOVIES =====
+https://iptv-org.github.io/iptv/categories/movies.m3u
+
+# ===== NEWS =====
+https://iptv-org.github.io/iptv/categories/news.m3u
+
+# ===== MUSIC =====
+https://iptv-org.github.io/iptv/categories/music.m3u
